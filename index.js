@@ -47,7 +47,7 @@ inquirer
     {
         type: 'input',
         name: 'contribution',
-        message: 'Controbution Guidelines',
+        message: 'Contribution Guidelines',
     },
     {
         type: 'input',
@@ -65,39 +65,40 @@ inquirer
   function createMD(data) {
     return`
 
-    # Title 
+    ## Title 
     ${data.title}
 
    ## Table of Contents 
-    1. [Project Description] (#Description)
-    2. [Built With] (#Data-Installation)
-    3. [Data Usage] (#Data-Usage)
-    4. [Contributions] (#Contributions)
-    5. [Instructions] (#Instructions)
-    6. [Questions] (#Questions)
-    7. [License] (#License)
+   <ul>
+    <a href="Description"><li>Description<li></a>
+    <a href="Data-Installation"><li>Data-Installation<li></a>
+    <a href="Data-Usage"><li>Data-Usage<li></a>
+    <a href="Contributions"><li>Contributions<li></a>
+    <a href="Instructions"><li>Instructions<li></a>
+    <a href="Questions"><li>Questions<li></a>
+    <a href="License"><li>License<li></a>
+    </ul>
 
-
-    ##  Description 
+    <h4 id="Description">Description</h4>
         ${data.description}
 
-    ## Data-Installation 
+    <h4 id="Data-Installation">Data-Installation</h4>
         ${data.installation}
 
-    ## Data-Usage 
+    <h4 id="Data-Usage">Data-Usage</h4>
         ${data.usage}
 
-    ## Contributions 
+    <h4 id="Contributions">Contributions</h4>
         ${data.contribution}
 
-    ## Instructions 
+    <h4 id="Instructions">Instructions</h4>
         ${data.instructions}
 
-    ## Questions 
+    <h4 id="Questions">Questions</h4>
         ${data.git}
         ${data.email}
-        
-    ## License 
+
+    <h4 id="License">License</h4>
         ${data.license}
 
    `
