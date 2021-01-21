@@ -37,9 +37,9 @@ inquirer
         name: 'license',
         message: 'What License are being used?',
         choices: [
-            "GLP",
+            "BSL",
             "MIT",
-            "BDS",
+            "APACHE",
             "UNKNOWN",
 
         ],

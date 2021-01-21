@@ -1,7 +1,6 @@
 
 
-# Title
-Title
+#Good Readme
 
 ## Table of Contents 
 1. [Project Description](#Project-Description)
@@ -14,23 +13,23 @@ Title
     
 
 ###  Project Description 
-Project
+A Readme Generator that I can use for all projects moving forward.
 
 ### Data-Installation 
-Inst
+Install
 
 ### Data Usage 
-Use
+Usage
 
 ### Contributions 
-Cont
+Guidelines
 
 ### Instructions 
 Test
 
 ### Questions 
-Git
-Email
+Github.com
+Email@email.com
 
 ### License 
 MIT
