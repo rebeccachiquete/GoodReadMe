@@ -1,53 +1,38 @@
 
 
-    # Title # 
-    Title
+# Title
+Title
 
-    - - - -
+## Table of Contents 
+    1. [Project Description] (#Project-Description)
+    1. [Data Installation] (#Data-Installation)
+    1. [Data Usage] (#Data-Usage)
+    1. [Contributions] (#Contributions)
+    1. [Instructions] (#Instructions)
+    1. [Questions] (#Questions)
+    1. [License] (#License)
+    
 
-   ## Table of Contents ##
-     [Project Description] (#Description)
-     [Built With] (#Data-Installation)
-     [Data Usage] (#Data-Usage)
-     [Contributions] (#Contributions)
-     [Instructions] (#Instructions)
-     [Questions] (#Questions)
-     [License] (#License)
+###  Project Description 
+Project
 
-    - - - -
+### Data-Installation 
+Inst
 
-    ## Description ## 
-        Project
+### Data Usage 
+Use
 
-    - - - -
+### Contributions 
+Cont
 
-    ## Data-Installation ##
-        Inst
+### Instructions 
+Test
 
-    - - - -
+### Questions 
+Git
+Email
 
-    ## Data-Usage ##
-        Use
+### License 
+MIT
 
-    - - - -
-
-    ## Contributions ##
-        Guide
-
-    - - - -
-
-    ## Instructions ##
-        Test
-
-    - - - -
-
-    ## Questions ##
-        Git
-        Email
-
-    - - - -
-
-    ## License ##
-        MIT
-    - - - -
    

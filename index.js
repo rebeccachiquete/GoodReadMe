@@ -63,57 +63,42 @@ inquirer
   });
 
   function createMD(data) {
-    return`
+    return `
 
-    # Title # 
-    ${data.title}
+# Title
+${data.title}
 
-    - - - -
+## Table of Contents 
+    1. [Project Description] (#Project-Description)
+    1. [Data Installation] (#Data-Installation)
+    1. [Data Usage] (#Data-Usage)
+    1. [Contributions] (#Contributions)
+    1. [Instructions] (#Instructions)
+    1. [Questions] (#Questions)
+    1. [License] (#License)
+    
 
-   ## Table of Contents ##
-     [Project Description] (#Description)
-     [Built With] (#Data-Installation)
-     [Data Usage] (#Data-Usage)
-     [Contributions] (#Contributions)
-     [Instructions] (#Instructions)
-     [Questions] (#Questions)
-     [License] (#License)
+###  Project Description 
+${data.description}
 
-    - - - -
+### Data-Installation 
+${data.installation}
 
-    ## Description ## 
-        ${data.description}
+### Data Usage 
+${data.usage}
 
-    - - - -
+### Contributions 
+${data.contribution}
 
-    ## Data-Installation ##
-        ${data.installation}
+### Instructions 
+${data.instructions}
 
-    - - - -
+### Questions 
+${data.git}
+${data.email}
 
-    ## Data-Usage ##
-        ${data.usage}
+### License 
+${data.license}
 
-    - - - -
-
-    ## Contributions ##
-        ${data.contribution}
-
-    - - - -
-
-    ## Instructions ##
-        ${data.instructions}
-
-    - - - -
-
-    ## Questions ##
-        ${data.git}
-        ${data.email}
-
-    - - - -
-
-    ## License ##
-        ${data.license}
-    - - - -
    `
   };
