@@ -65,8 +65,7 @@ inquirer
   function createMD(data) {
     return `
 
-# Title
-${data.title}
+#${data.title}
 
 ## Table of Contents 
 1. [Project Description](#Project-Description)
