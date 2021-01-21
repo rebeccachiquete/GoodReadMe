@@ -5,7 +5,6 @@ Creating A ReadMe Generator through Node.
 
  Enjoy!
 
-​
 # Video Demonstration
 
 

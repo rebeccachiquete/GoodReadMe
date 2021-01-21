@@ -65,20 +65,40 @@ inquirer
   function createMD(data) {
     return`
 
-    # Title #
-        ${data.title}
-    ## Descriptiomn ##    
+    # Title 
+    ${data.title}
+
+   ## Table of Contents 
+    1. [Project Description] (#Description)
+    2. [Built With] (#Data-Installation)
+    3. [Data Usage] (#Data-Usage)
+    4. [Contributions] (#Contributions)
+    5. [Instructions] (#Instructions)
+    6. [Questions] (#Questions)
+    7. [License] (#License)
+
+
+    ##  Description 
         ${data.description}
-    ### Data Installation ###
+
+    ## Data-Installation 
         ${data.installation}
-    ### Data Usage ###
+
+    ## Data-Usage 
         ${data.usage}
-    ### Contributions ###
+
+    ## Contributions 
         ${data.contribution}
-    ### Instructions ###
+
+    ## Instructions 
         ${data.instructions}
-    ### Questions? ###
+
+    ## Questions 
         ${data.git}
         ${data.email}
+        
+    ## License 
+        ${data.license}
+
    `
   };
